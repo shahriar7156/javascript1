@@ -1,6 +1,6 @@
 const fs  = require("fs");
 const http= require("http");
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 3000;
 const hostname= "127.0.0.1";
 
 const server= http.createServer((req,res)=>{
